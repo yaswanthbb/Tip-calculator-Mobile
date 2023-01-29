@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,700&display=swap');
+body{
+    margin:0;
+}
+.bg-container{
+    background-color: #E7EDFE;
+    text-transform: uppercase;
+}
+.img{
+    height:50vh;
+    width:100%;
+}
+.user-input {
+    height: 40px;
+    width: 100%;
+    font-family: poppins;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd2d9;
+    border-radius: 4px;
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+
+.top-heading{
+    color: #8998E3;
+    padding-top: 15px;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.label{
+    color:#00306E;
+    font-weight: bold;
+    font-family: andika;
+}
+.button{
+    background-color: #8998E3;
+    color: #00306E;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+}
+.button-container{
+    text-align: center;
+}
+.input-container{
+    padding: 15px;
+}
+.error{
+    font-family: andika;
+    color: #D61355;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
